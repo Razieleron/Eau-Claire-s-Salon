@@ -12,7 +12,7 @@
 <ul>
 @foreach(Stylist item in Model)
 {
-  <li>@Html.ActionLink($"{item.StylistName}", "Details", "Cuisines", new { id = item.StylistId})</li>
+  <li>@Html.ActionLink($"{item.StylistName}", "Details", "Stylists", new { id = item.StylistId})</li>
 }
 </ul>
 
