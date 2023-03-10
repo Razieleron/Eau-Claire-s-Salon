@@ -11,19 +11,16 @@ _A web application that allows user create catalogues with their music collectio
 * C#
 * HTML
 * Visual Studio
+* .Net Framework
+* Razor Framework
 
 ## Setup Instructions
 
 1. Clone this repo.
 
-2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "MusicOrganizer".
-3. In the command line, run the command "dotnet run" to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal.
+2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "HairSalon.Solution/HairSalon".
+3. In the command line, run the command "dotnet run" to compile and execute the console application. After you have built/run all of your dependencies, you can publish the application to the internet by typing dotnet watch run.  This will open a web browser to LocalHost:5000 or Localhost:5001.  From here you can interact with the application. Since this is a console application, you'll interact with it through text commands in your terminal.
 4. Optionally, you can run "dotnet build" to compile this console app without running it.
-
-## Test Instructions
-
-1. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's testing directory called "MusicOrganizer.Tests".
-2. In the command line, run the command "dotnet testrun" to run the tests. The results of running the tests will appear in the terminal.
 
 ## Known Bugs
 
@@ -33,7 +30,7 @@ _A web application that allows user create catalogues with their music collectio
 
 MIT
 
-* Copyright (c) _2023_ _Asia Kaplanyan, Eliot Gronstal, Jannon Sielaff, Luckie_
+* Copyright (c) _2023_ _Jannon Sielaff_
 
 MIT License
 
