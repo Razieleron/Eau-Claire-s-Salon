@@ -40,4 +40,17 @@ public class StylistsController : Controller
     Stylist targetStylist = _db.Stylists.Include(stylist => stylist.Clients).FirstOrDefault(stylist => stylist.StylistId == id);
     return View(targetStylist);
   }
+    public ActionResult Delete(int id)
+  {
+    Stylist thisStylist = _db.Stylists.FirstOrDefault(stylist => stylist.StylistId == id);
+    return View(thisStylist);
+  }
+  [HttpPost, ActionName("Delete")]
+  public ActionResult DeleteConfirmed(int id)
+  {
+    Stylist thisStylist = _db.Stylists.FirstOrDefault(stylist => stylist.StylistId == id);
+    _db.Stylists.Remove(thisStylist);
+    _db.SaveChanges();
+    return RedirectToAction("Index");
+  }
 }
