@@ -10,6 +10,7 @@ _A web application that allows user to create Stylists and Clients and assign Cl
 
 * C#
 * HTML
+* CSS
 * Visual Studio
 * .Net Framework
 * Razor Framework
@@ -19,7 +20,7 @@ _A web application that allows user to create Stylists and Clients and assign Cl
 
 1. Clone this repository.
 2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "HairSalon.Solution/HairSalon".
-3. Create a file called appsettings.json.  In this file, place the following text:
+3. Create a file in /HairSalon called appsettings.json.  In this file, place the following text:
 
 {
   "ConnectionStrings": {
