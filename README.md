@@ -1,4 +1,4 @@
-# Eau Claire's Salon (Application Name) 
+# Eau Claire's Salon
 
 #### This is a Personnel and Client Management Web Application
 
@@ -8,7 +8,7 @@ _A web application that allows user to create Stylists and Clients and assign Cl
 
 ## Technologies Used
 
-* C#
+* C# 
 * HTML
 * CSS
 * Visual Studio
@@ -27,7 +27,7 @@ _A web application that allows user to create Stylists and Clients and assign Cl
   }
 }
 
-The replace the password and ID in the file with your own password and ID (minus the square brackets).
+Then replace the password and ID in the file with your own password and ID (minus the square brackets).
 4. In the command line, run the command "dotnet run" to compile and execute the console application. After you have built/run all of your dependencies, you can publish the application to the internet by typing dotnet watch run.  This will open a web browser to LocalHost:5000 or Localhost:5001.  From here you can interact with the application. Since this is a web application, you will interact with it in your web browser.
 5. Optionally, you can run "dotnet build" to compile this console app without running it.
 
