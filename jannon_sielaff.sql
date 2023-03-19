@@ -36,7 +36,7 @@ CREATE TABLE `clients` (
 
 LOCK TABLES `clients` WRITE;
 /*!40000 ALTER TABLE `clients` DISABLE KEYS */;
-INSERT INTO `clients` VALUES (1,'Samwise Gamgee',2),(2,'chuck',0),(3,'Mark Hamil',3),(4,'Simon Crowell',3),(5,'Hugh Plant',3),(6,'Simone D\'Orrico',4),(7,'Eleanor Grimbey',4),(8,'Sue Suesusi',6);
+INSERT INTO `clients` VALUES (1,'Samwise Gamgee',1);
 /*!40000 ALTER TABLE `clients` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -60,7 +60,7 @@ CREATE TABLE `stylists` (
 
 LOCK TABLES `stylists` WRITE;
 /*!40000 ALTER TABLE `stylists` DISABLE KEYS */;
-INSERT INTO `stylists` VALUES (3,'Roger'),(4,'Tonya'),(5,'Ingrid'),(6,'Persephone');
+INSERT INTO `stylists` VALUES (1,'Roger'),(2,'Tonya'),(3,'Ingrid'),(4,'Persephone');
 /*!40000 ALTER TABLE `stylists` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
