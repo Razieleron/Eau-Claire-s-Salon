@@ -1,4 +1,4 @@
-# Eau Claire's Salon (Application Name)
+# Eau Claire's Salon (Application Name) 
 
 #### This is a Personnel and Client Management Web Application
 
