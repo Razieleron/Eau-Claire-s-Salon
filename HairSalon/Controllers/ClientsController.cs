@@ -37,7 +37,7 @@ namespace HairSalon.Controllers
     }
     public ActionResult Details(int id)
     {
-      Client targetClient = _db.Clients.Include(client => client.Stylist).FirstOrDefault(client => client.StylistId == id);
+      Client targetClient = _db.Clients.Include(client => client.Stylist).FirstOrDefault(client => client.ClientId == id);
       return View(targetClient);
     }
   }
